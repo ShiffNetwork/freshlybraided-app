@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-link {
+        @apply text-xl text-gray-700 dark:text-white hover:text-gray-300 dark:hover:text-gray-400 duration-500
+    }
+}
