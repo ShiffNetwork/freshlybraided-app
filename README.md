@@ -14,8 +14,8 @@ Follow these steps to set up and run the project:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/ShiffNetwork/shifflaravue.git
-   cd shifflaravue
+   git clone https://github.com/ShiffNetwork/freshlybraided-app.git
+   cd freshlybraided-app
 
 2. **Start Docker Containers**
     ```bash
