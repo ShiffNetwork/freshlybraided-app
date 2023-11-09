@@ -6,7 +6,7 @@
                 class="flex flex-col items-start justify-between pb-6 space-y-4 border-b lg:items-center lg:space-y-0 lg:flex-row">
                 <h1 class="text-2xl font-semibold whitespace-nowrap">Clients</h1>
                 <div class="space-y-6 md:space-x-2 md:space-y-0">
-                    <Link :href="route('user-account.create')" target="_blank"
+                    <Link :href="route('clients.create')" target="_blank"
                         class="btn-default">
                         <span>+ Add new Client</span>
                     </Link>
@@ -21,22 +21,20 @@
                                     <tr>
                                         <th scope="col"
                                             class="px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">
-                                            Name
+                                            Name/email
                                         </th>
                                         <th scope="col"
                                             class="px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">
-                                            Title
+                                            Phone
                                         </th>
                                         <th scope="col"
                                             class="px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">
-                                            Status
+                                            Instagram Tag
                                         </th>
+                                        
                                         <th scope="col"
                                             class="px-6 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">
-                                            Role
-                                        </th>
-                                        <th scope="col" class="relative px-6 py-3">
-                                            <span class="sr-only">Edit</span>
+                                            Actions
                                         </th>
                                     </tr>
                                 </thead>
@@ -57,18 +55,23 @@
                                             </div>
                                         </td>
                                         <td class="px-6 py-4 whitespace-nowrap">
-                                            <div class="text-sm text-gray-900">Regional Paradigm Technician</div>
-                                            <div class="text-sm text-gray-500">Optimization</div>
+                                            <div class="text-sm text-gray-900">0677510644</div>
                                         </td>
                                         <td class="px-6 py-4 whitespace-nowrap">
                                             <span
-                                                class="inline-flex px-2 text-xs font-semibold leading-5 text-green-800 bg-green-100 rounded-full">
-                                                Active
+                                                class="inline-flex px-2 text-xs font-semibold leading-5">
+                                                @ahmedKamel
                                             </span>
                                         </td>
-                                        <td class="px-6 py-4 text-sm text-gray-500 whitespace-nowrap">Admin</td>
-                                        <td class="px-6 py-4 text-sm font-medium text-right whitespace-nowrap">
-                                            <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                                        <td class="px-6 py-4 whitespace-nowrap">
+                                            
+                                            <div>
+                                                <a href="#" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                                            </div>
+                                                
+                                            <div>
+                                                <a href="#" class="text-red-600 hover:text-red-900">Delete</a>
+                                            </div>
                                         </td>
                                     </tr>
                                     <!-- </template> -->

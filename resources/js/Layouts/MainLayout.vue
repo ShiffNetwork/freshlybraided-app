@@ -19,7 +19,7 @@
               <Link :href="route('hairstyle.index')" class="nav-link">Hairstyles</Link>
             </li>
             <li class="mx-4 my-6 md:my-0">
-              <Link :href="route('index.users')" class="nav-link">Clients</Link>
+              <Link :href="route('clients.index')" class="nav-link">Clients</Link>
             </li>
             <li class="mx-4 my-6 md:my-0">
                 <a href="#" class="text-xl text-gray-700 dark:text-white hover:text-gray-300 dark:hover:text-gray-400 duration-500">
@@ -29,7 +29,9 @@
             
         </ul>
     </nav>
-
+    <!-- <div v-if="$page.props.flash.success" class="mt-6 border rounded-md shadow-sm border-green-200 dark:border-green-800 bg-green-50 dark:bg-green-900 p-2">
+      {{ $page.props.flash.success }}
+    </div> -->
     <slot></slot>
 </template>
 
@@ -62,4 +64,6 @@ export default {
 
 <script setup>
 import {Link} from '@inertiajs/vue3'
+import { computed } from 'vue'
+
 </script>
